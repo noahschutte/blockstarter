@@ -20,10 +20,7 @@ class CampaignNew extends Component {
 			const accounts = await web3.eth.getAccounts();
 			await factory.methods
 				.createCampaign(this.state.minimumContribution)
-				.send({
-					from: accounts[0],
-				});
-
+				.send({ from: accounts[0] });
 			Router.pushRoute('/');
 		} catch (err) {
 			this.setState({ errorMessage: err.message });
@@ -53,7 +50,7 @@ class CampaignNew extends Component {
 						disabled={this.state.loading}
 						loading={this.state.loading}
 						primary>
-						Create!
+						Create
 					</Button>
 				</Form>
 			</Layout>
