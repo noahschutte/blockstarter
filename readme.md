@@ -2,6 +2,10 @@
 
 https://blockstarter.herokuapp.com/
 
+### Description:
+
+Fundraising on a decentralized blockchain application. BlockStarter allows users to start campaigns to raise funds, contribute to other people's campaigns, approve spend requests on campaigns you've contributed to, and spend funds for requests you've created.
+
 ## How do I run the project locally with a clean environment?
 
 ### Download global dependencies:
